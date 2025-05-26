@@ -7,38 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4575C3112DE10E9F0083860A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4575C30D2DE10E9F0083860A /* Assets.xcassets */; };
-		4575C3122DE10E9F0083860A /* TodoMate2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C30F2DE10E9F0083860A /* TodoMate2App.swift */; };
-		4575C3162DE118A10083860A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C3152DE118A10083860A /* User.swift */; };
-		4575C3182DE118B60083860A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C3172DE118B60083860A /* Todo.swift */; };
-		4575C31A2DE118C10083860A /* UserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C3192DE118C10083860A /* UserGroup.swift */; };
-		4575C31F2DE11B9D0083860A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C31E2DE11B9D0083860A /* Date+Extension.swift */; };
+		456D71062DE43BD70090FC8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 456D71042DE43BCF0090FC8B /* README.md */; };
 		4575C36A2DE11FCA0083860A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C3692DE11FCA0083860A /* FirebaseAuth */; };
 		4575C36C2DE11FCA0083860A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C36B2DE11FCA0083860A /* FirebaseCore */; };
 		4575C36E2DE11FCA0083860A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C36D2DE11FCA0083860A /* FirebaseFirestore */; };
 		4575C3712DE120170083860A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C3702DE120170083860A /* GoogleSignIn */; };
 		4575C3732DE120170083860A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C3722DE120170083860A /* GoogleSignInSwift */; };
-		4575C3742DE120740083860A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C31C2DE11B260083860A /* Color+Extension.swift */; };
-		4575C3762DE122D30083860A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4575C3752DE122D30083860A /* GoogleService-Info.plist */; };
-		4575C3792DE124A90083860A /* DomainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575C3782DE124A80083860A /* DomainConstants.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		456D71132DE43F9E0090FC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4529426E2DE0EAC00070CCC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 452942752DE0EAC00070CCC4;
+			remoteInfo = TodoMate2;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		452942762DE0EAC00070CCC4 /* TodoMate2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoMate2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4575C30D2DE10E9F0083860A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4575C30E2DE10E9F0083860A /* TodoMate2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodoMate2.entitlements; sourceTree = "<group>"; };
-		4575C30F2DE10E9F0083860A /* TodoMate2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoMate2App.swift; sourceTree = "<group>"; };
-		4575C3132DE10FBB0083860A /* CLAUDE0.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE0.md; sourceTree = "<group>"; };
-		4575C3142DE117720083860A /* CLAUDE1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE1.md; sourceTree = "<group>"; };
-		4575C3152DE118A10083860A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		4575C3172DE118B60083860A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
-		4575C3192DE118C10083860A /* UserGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroup.swift; sourceTree = "<group>"; };
-		4575C31C2DE11B260083860A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		4575C31E2DE11B9D0083860A /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		4575C3752DE122D30083860A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4575C3772DE123100083860A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		4575C3782DE124A80083860A /* DomainConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainConstants.swift; sourceTree = "<group>"; };
+		456D71042DE43BCF0090FC8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		456D710F2DE43F9E0090FC8B /* TodoMate2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoMate2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		459484362DE43A5E00BB8106 /* ExampleCode1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ExampleCode1.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		45486BEC2DE1ACE000B541F8 /* Exceptions for "TodoMate2" folder in "TodoMate2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 452942752DE0EAC00070CCC4 /* TodoMate2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		45486BCF2DE1ACE000B541F8 /* TodoMate2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				45486BEC2DE1ACE000B541F8 /* Exceptions for "TodoMate2" folder in "TodoMate2" target */,
+			);
+			path = TodoMate2;
+			sourceTree = "<group>";
+		};
+		456D71102DE43F9E0090FC8B /* TodoMate2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TodoMate2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		452942732DE0EAC00070CCC4 /* Frameworks */ = {
@@ -53,15 +71,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		456D710C2DE43F9E0090FC8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4529426D2DE0EABF0070CCC4 = {
 			isa = PBXGroup;
 			children = (
-				4575C3132DE10FBB0083860A /* CLAUDE0.md */,
-				4575C3142DE117720083860A /* CLAUDE1.md */,
-				4575C3102DE10E9F0083860A /* TodoMate2 */,
+				456D71042DE43BCF0090FC8B /* README.md */,
+				459484372DE43A5E00BB8106 /* Example */,
+				45486BCF2DE1ACE000B541F8 /* TodoMate2 */,
+				456D71102DE43F9E0090FC8B /* TodoMate2Tests */,
 				452942772DE0EAC00070CCC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,106 +96,17 @@
 			isa = PBXGroup;
 			children = (
 				452942762DE0EAC00070CCC4 /* TodoMate2.app */,
+				456D710F2DE43F9E0090FC8B /* TodoMate2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4575C3052DE10E9F0083860A /* Repository */ = {
+		459484372DE43A5E00BB8106 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				459484362DE43A5E00BB8106 /* ExampleCode1.md */,
 			);
-			path = Repository;
-			sourceTree = "<group>";
-		};
-		4575C3062DE10E9F0083860A /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		4575C3072DE10E9F0083860A /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				4575C3052DE10E9F0083860A /* Repository */,
-				4575C3062DE10E9F0083860A /* Service */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		4575C3082DE10E9F0083860A /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				4575C3782DE124A80083860A /* DomainConstants.swift */,
-				4575C3192DE118C10083860A /* UserGroup.swift */,
-				4575C3172DE118B60083860A /* Todo.swift */,
-				4575C3152DE118A10083860A /* User.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		4575C3092DE10E9F0083860A /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				4575C3082DE10E9F0083860A /* Entity */,
-				4575C3202DE11CAA0083860A /* UseCase */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		4575C30A2DE10E9F0083860A /* Store */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Store;
-			sourceTree = "<group>";
-		};
-		4575C30B2DE10E9F0083860A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4575C30C2DE10E9F0083860A /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				4575C30A2DE10E9F0083860A /* Store */,
-				4575C30B2DE10E9F0083860A /* View */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		4575C3102DE10E9F0083860A /* TodoMate2 */ = {
-			isa = PBXGroup;
-			children = (
-				4575C3772DE123100083860A /* Info.plist */,
-				4575C3752DE122D30083860A /* GoogleService-Info.plist */,
-				4575C30E2DE10E9F0083860A /* TodoMate2.entitlements */,
-				4575C30D2DE10E9F0083860A /* Assets.xcassets */,
-				4575C31B2DE1198C0083860A /* Util */,
-				4575C3072DE10E9F0083860A /* Data */,
-				4575C3092DE10E9F0083860A /* Domain */,
-				4575C30C2DE10E9F0083860A /* Presentation */,
-				4575C30F2DE10E9F0083860A /* TodoMate2App.swift */,
-			);
-			path = TodoMate2;
-			sourceTree = "<group>";
-		};
-		4575C31B2DE1198C0083860A /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				4575C31E2DE11B9D0083860A /* Date+Extension.swift */,
-				4575C31C2DE11B260083860A /* Color+Extension.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		4575C3202DE11CAA0083860A /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UseCase;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +124,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				45486BCF2DE1ACE000B541F8 /* TodoMate2 */,
+			);
 			name = TodoMate2;
 			packageProductDependencies = (
 				4575C3692DE11FCA0083860A /* FirebaseAuth */,
@@ -198,6 +138,29 @@
 			productName = TodoMate2;
 			productReference = 452942762DE0EAC00070CCC4 /* TodoMate2.app */;
 			productType = "com.apple.product-type.application";
+		};
+		456D710E2DE43F9E0090FC8B /* TodoMate2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456D71152DE43F9E0090FC8B /* Build configuration list for PBXNativeTarget "TodoMate2Tests" */;
+			buildPhases = (
+				456D710B2DE43F9E0090FC8B /* Sources */,
+				456D710C2DE43F9E0090FC8B /* Frameworks */,
+				456D710D2DE43F9E0090FC8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456D71142DE43F9E0090FC8B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				456D71102DE43F9E0090FC8B /* TodoMate2Tests */,
+			);
+			name = TodoMate2Tests;
+			packageProductDependencies = (
+			);
+			productName = TodoMate2Tests;
+			productReference = 456D710F2DE43F9E0090FC8B /* TodoMate2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -211,6 +174,10 @@
 				TargetAttributes = {
 					452942752DE0EAC00070CCC4 = {
 						CreatedOnToolsVersion = 16.3;
+					};
+					456D710E2DE43F9E0090FC8B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 452942752DE0EAC00070CCC4;
 					};
 				};
 			};
@@ -233,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				452942752DE0EAC00070CCC4 /* TodoMate2 */,
+				456D710E2DE43F9E0090FC8B /* TodoMate2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,8 +210,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4575C3112DE10E9F0083860A /* Assets.xcassets in Resources */,
-				4575C3762DE122D30083860A /* GoogleService-Info.plist in Resources */,
+				456D71062DE43BD70090FC8B /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456D710D2DE43F9E0090FC8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,17 +228,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4575C31F2DE11B9D0083860A /* Date+Extension.swift in Sources */,
-				4575C3742DE120740083860A /* Color+Extension.swift in Sources */,
-				4575C3182DE118B60083860A /* Todo.swift in Sources */,
-				4575C3162DE118A10083860A /* User.swift in Sources */,
-				4575C31A2DE118C10083860A /* UserGroup.swift in Sources */,
-				4575C3792DE124A90083860A /* DomainConstants.swift in Sources */,
-				4575C3122DE10E9F0083860A /* TodoMate2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456D710B2DE43F9E0090FC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		456D71142DE43F9E0090FC8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 452942752DE0EAC00070CCC4 /* TodoMate2 */;
+			targetProxy = 456D71132DE43F9E0090FC8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		452942802DE0EAC10070CCC4 /* Debug */ = {
@@ -393,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TodoMate2/TodoMate2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -411,6 +394,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.hotcs6.TodoMate2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -423,6 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TodoMate2/TodoMate2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -441,9 +426,44 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.hotcs6.TodoMate2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		456D71162DE43F9E0090FC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PRWAG4355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hotcs6.TodoMate2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoMate2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoMate2";
+			};
+			name = Debug;
+		};
+		456D71172DE43F9E0090FC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PRWAG4355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.hotcs6.TodoMate2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoMate2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoMate2";
 			};
 			name = Release;
 		};
@@ -464,6 +484,15 @@
 			buildConfigurations = (
 				452942832DE0EAC10070CCC4 /* Debug */,
 				452942842DE0EAC10070CCC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456D71152DE43F9E0090FC8B /* Build configuration list for PBXNativeTarget "TodoMate2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456D71162DE43F9E0090FC8B /* Debug */,
+				456D71172DE43F9E0090FC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

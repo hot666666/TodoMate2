@@ -8,7 +8,7 @@
 import Foundation
 
 struct User: Codable, Identifiable {
-	let id: String /// DocumentID
+	let id: String 							/// DocumentID
 	var displayName: String
 	var group: UserGroup?
 	let createdAt: Date
@@ -32,7 +32,7 @@ struct User: Codable, Identifiable {
 		let now: Date = .now
 		self.init(
 			id: id,
-			displayName: DomainConstants.User.unknownDisplayName,
+			displayName: DomainConstant.User.unknownDisplayName,
 			group: group,
 			createdAt: now,
 			updatedAt: now
@@ -44,10 +44,10 @@ extension User {
 	static let dummy = User(id: "", group: .dummy)
 	
 	static let stub = User(
-		id: DomainConstants.User.stubId,
-		displayName: DomainConstants.User.stubDisplayName,
+		id: DomainConstant.User.stubId,
+		displayName: DomainConstant.User.stubDisplayName,
 		group: .stub,
-		createdAt: Date(),
-		updatedAt: Date()
+		createdAt: .now,
+		updatedAt: .now
 	)
 }

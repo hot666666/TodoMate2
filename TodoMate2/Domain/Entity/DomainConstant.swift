@@ -1,13 +1,11 @@
 //
-//  DomainConstants.swift
+//  DomainConstant.swift
 //  TodoMate2
 //
 //  Created by hs on 5/24/25.
 //
 
-import Foundation
-
-enum DomainConstants {
+enum DomainConstant {
   // MARK: - User
   enum User {
     static let unknownDisplayName = "Unknown"

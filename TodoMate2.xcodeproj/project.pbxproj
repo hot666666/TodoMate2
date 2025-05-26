@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		456D71062DE43BD70090FC8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 456D71042DE43BCF0090FC8B /* README.md */; };
 		4575C36A2DE11FCA0083860A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C3692DE11FCA0083860A /* FirebaseAuth */; };
 		4575C36C2DE11FCA0083860A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C36B2DE11FCA0083860A /* FirebaseCore */; };
 		4575C36E2DE11FCA0083860A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4575C36D2DE11FCA0083860A /* FirebaseFirestore */; };
@@ -29,6 +28,7 @@
 		452942762DE0EAC00070CCC4 /* TodoMate2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoMate2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456D71042DE43BCF0090FC8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		456D710F2DE43F9E0090FC8B /* TodoMate2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoMate2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456D71482DE47B150090FC8B /* Tasks.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Tasks.md; sourceTree = "<group>"; };
 		459484362DE43A5E00BB8106 /* ExampleCode1.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ExampleCode1.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				456D71042DE43BCF0090FC8B /* README.md */,
+				456D71482DE47B150090FC8B /* Tasks.md */,
 				459484372DE43A5E00BB8106 /* Example */,
 				45486BCF2DE1ACE000B541F8 /* TodoMate2 */,
 				456D71102DE43F9E0090FC8B /* TodoMate2Tests */,
@@ -210,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456D71062DE43BD70090FC8B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

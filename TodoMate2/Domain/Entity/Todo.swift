@@ -24,14 +24,14 @@ enum TodoStatus: String, CaseIterable, Codable {
 }
 
 struct Todo: Identifiable {
-	let id: String /// DocumentID
+	let id: String					/// DocumentID
 	var content: String
 	var status: TodoStatus
 	var detail: String
 	var date: Date
 	let createdAt: Date
 	var updatedAt: Date
-	let owner: String /// UserID
+	let owner: String 			/// UserID
 	
 	init(
 		id: String,
@@ -66,10 +66,10 @@ struct Todo: Identifiable {
 extension Todo {
 	static let stub = Todo(
 		id: UUID().uuidString,
-		date: Date(),
-		createdAt: Date(),
-		updatedAt: Date(),
-		owner: DomainConstants.User.stubId
+		date: .now,
+		createdAt: .now,
+		updatedAt: .now,
+		owner: DomainConstant.User.stubId
 	)
 	
 	static func copy(from todo: Todo) -> Todo {

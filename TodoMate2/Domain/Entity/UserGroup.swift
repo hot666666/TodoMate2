@@ -8,8 +8,8 @@
 import Foundation
 
 struct UserGroup: Codable {
-  let id: String /// DocumentID
-  var members: [String]
+  let id: String 					/// DocumentID
+  var members: [String]		/// UserID 목록
   let createdAt: Date
   var updatedAt: Date
 }
@@ -23,9 +23,9 @@ extension UserGroup {
 	)
 	
   static let stub = UserGroup(
-    id: DomainConstants.UserGroup.stubId,
-    members: [DomainConstants.UserGroup.stubMember],
-    createdAt: Date(),
-    updatedAt: Date()
+    id: DomainConstant.UserGroup.stubId,
+    members: [DomainConstant.UserGroup.stubMember],
+    createdAt: .now,
+    updatedAt: .now
   )
 }

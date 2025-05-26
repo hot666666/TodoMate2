@@ -10,7 +10,13 @@ import FirebaseCore
 import GoogleSignIn
 
 @main
+
 struct TodoMate2App: App {
+
+	private let container: DIContainer = ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
+		? DIContainer.preview
+		: DIContainer()
+
 	init() {
 		guard ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] != "1" else {
 			print("Firebase client ID is not configured.")
@@ -26,8 +32,8 @@ struct TodoMate2App: App {
 	
 	var body: some Scene {
 		WindowGroup {
-			// View가 시작되는 지점
 			Text("Hello, TodoMate2!")
+				.environment(container)
 		}
 	}
 }
